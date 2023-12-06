@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lottery</artifactId>
+        <groupId>com.example</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>lottery-rpc</artifactId>
+
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--依赖-->
+    <dependencies>
+        <!--模块之间的依赖引用,rpc引用common-->
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>lottery-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
+    <!--构件信息,包括插件,资源文件信息-->
+    <build>
+        <!--指定去掉后缀的工程名字-->
+        <finalName>lottery-rpc</finalName>
+        <plugins>
+            <!--编译plugin-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <compilerVersion>1.8</compilerVersion>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+
+</project>
