@@ -4,7 +4,7 @@ import com.example.lottery.req.DrawProcessReq;
 import com.example.lottery.res.DrawProcessResult;
 
 /**
- * 类描述
+ * 类描述 启动类
  *
  * @author yanghanwei
  * @version 1.0.0
