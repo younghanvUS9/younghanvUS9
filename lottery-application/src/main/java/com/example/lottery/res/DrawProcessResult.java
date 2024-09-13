@@ -4,7 +4,7 @@ import com.example.lottery.common.Result;
 import com.example.lottery.strategy.model.vo.DrawAwardInfo;
 
 /**
- * 类描述
+ * 类描述 响应
  *
  * @author yanghanwei
  * @version 1.0.0
