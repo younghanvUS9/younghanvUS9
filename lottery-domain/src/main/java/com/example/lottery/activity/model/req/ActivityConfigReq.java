@@ -3,7 +3,7 @@ package com.example.lottery.activity.model.req;
 import com.example.lottery.activity.model.aggregates.ActivityConfigRich;
 
 /**
- * 类描述
+ * 类描述 请求
  *
  * @author yanghanwei
  * @version 1.0.0
