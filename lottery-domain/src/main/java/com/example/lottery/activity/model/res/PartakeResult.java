@@ -3,7 +3,7 @@ package com.example.lottery.activity.model.res;
 import com.example.lottery.common.Result;
 
 /**
- * 类描述
+ * 类描述 响应
  *
  * @author yanghanwei
  * @version 1.0.0
