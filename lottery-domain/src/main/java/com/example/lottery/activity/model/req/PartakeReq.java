@@ -3,7 +3,7 @@ package com.example.lottery.activity.model.req;
 import java.util.Date;
 
 /**
- * 类描述
+ * 类描述 请求
  *
  * @author yanghanwei
  * @version 1.0.0
